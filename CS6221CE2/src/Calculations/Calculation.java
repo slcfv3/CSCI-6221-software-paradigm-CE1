@@ -1,19 +1,17 @@
 package Calculations;
 
-import java.util.Scanner;
+
+import simple.Frontpanel1;
 
 public class Calculation{
-	private static Scanner in1;
-	private static Scanner in2;
 	
-	public Calculation(Scanner in1, Scanner in2){
+	
+	
+	public void welcome(){
+		Frontpanel1.show.setText("Welcome to use our calculator!");
+		
 		
 	}
-	public static void main(String []args){
-		in1 = new Scanner(System.in);
-		in2 = new Scanner(System.in);
-		in1.nextInt();
-		in2.nextInt();
-		
-	}
+	
+	
 }
